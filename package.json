@@ -1,0 +1,36 @@
+{
+  "name": "sfweb",
+  "version": "1.0.0",
+  "description": "public web codebase for sonic-force (including osc api and user interface) ",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "pnpx parcel src/index.html",
+    "build": "pnpx parcel build src/index.html",
+    "test": "echo 'no test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonic-force/sfweb.git"
+  },
+  "author": "mia-cx, tijmenbudding, tomvanstrien",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sonic-force/sfweb/issues"
+  },
+  "homepage": "https://github.com/sonic-force/sfweb#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "node-osc": "^6.1.16",
+    "path": "^0.12.7",
+    "socket.io": "^4.4.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "p5": "^1.4.1",
+    "parcel": "^2.4.1"
+  }
+}
