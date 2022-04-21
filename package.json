@@ -2,7 +2,7 @@
   "name": "sfweb",
   "version": "1.0.0",
   "description": "public web codebase for sonic-force (including osc api and user interface) ",
-  "main": "index.js",
+  "default": "src/index.html",
   "directories": {
     "doc": "docs"
   },
