@@ -1,4 +1,4 @@
-import p5 from './lib/p5.min.js';
+import p5 from 'p5';
 
 let sketch = function(p: p5) {
 
